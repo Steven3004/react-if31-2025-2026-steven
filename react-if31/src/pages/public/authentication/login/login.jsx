@@ -18,7 +18,7 @@ export default function Login() {
   };
  
   const handleSubmit = (event) => {
-    event.preventDefault();
+    event.preventDefault(); 
     console.log("Form submitted:", form);
   };
 
