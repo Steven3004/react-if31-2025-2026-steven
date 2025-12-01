@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client'
 import "./assets/css/style.css"
 
 import Login from './pages/public/authentication/login/login'
-import Logo from './components/basic/logo/logo'
+import Logo from './components/basic/logo/Logo'
 
 
 createRoot(document.getElementById('root')).render(
