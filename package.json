@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "npm --prefix react-if31 run dev",
     "build": "npm --prefix react-if31 run build",
+    "vercel-build": "npm --prefix react-if31 ci && npm --prefix react-if31 run build",
     "lint": "eslint .",
     "preview": "npm --prefix react-if31 run preview"
   },
